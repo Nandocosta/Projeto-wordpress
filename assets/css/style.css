@@ -1,0 +1,143 @@
+/*
+Thema name: Beautysalon
+Thema URI: http://fernandowp.com
+Description: Site para barbearias
+Author: Fernando
+Author URI: http://fernandowp.com
+version: 1.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px ;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: grid;
+    grid-template-rows: 56px 1fr 200px;
+    grid-template-areas: "h"
+                        "m"
+                        "f";
+}
+header{
+    grid-area: h;
+}
+main{
+    grid-area: m;
+}
+footer{
+    grid-area: f;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*====Header====*/
+
+.navbar {
+    position: fixed !important; 
+    right: 0;
+    left: 0;
+    z-index: 999;
+    align-items: center;
+    background: #fff;
+}
+.navbar-brand {
+    color: #252B42;
+    margin-left: 195px;
+    padding: 0 20px 13px 13px;
+    font-weight: bold;
+}
+#navbar-brand a {
+    font-size: 35px;
+    color: #16171b;
+}
+#navbarNav .nav-item a{
+    font-weight: 600;
+    color: #737373;
+}
+#menu-principal {
+    padding-left: 20px;
+}
+
+/*====Area de posts====*/
+
+#box-post {
+    max-width: 940px;
+    margin: 40px auto 0 auto ;
+    padding-top: 10px;   
+}
+
+#area-post .card{
+    width: 327px;
+    height: 4000;
+}
+
+.card-body a {
+    text-decoration: none ;
+}
+
+/*==== Carousel ====*/
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 80vh;
+}
+
+
+/*====Card-testimonial====*/
+
+.card-testimonials{
+    max-width: 920px;
+    margin: 40px auto;
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid rgb(243, 243, 243);
+}
+
+.card-testimonials .card-img img{
+    width: 90px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 5px;   
+}
+
+/*====Footer====*/
+
+.formulario{
+    display: flex;
+    margin-top: 40px;
+}
+.fcard {
+    width: 60%;
+}
+.fcard img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form{
+    width: 50%;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding-top:20px;
+    width: 100%;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(230, 227, 227);
+}
