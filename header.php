@@ -20,7 +20,7 @@
         <div class="navbar navbar-expand-lg" >
             <nav >
                 <div class="logo d-inline-flex" >
-                    <a class="navbar-brand" href="idex.php" haref="<?php echo site_url();?>" title="<?php bloginfo('name');?>">BeautySalon</a>
+                    <a class="navbar-brand" href="index.php" haref="<?php echo site_url();?>" title="<?php bloginfo('name');?>">BeautySalon</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
                     <span class="navbar-toggler-icon"></span>
                     </button>
